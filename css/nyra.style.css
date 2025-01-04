@@ -1,0 +1,492 @@
+.section_hero {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.chara {
+  z-index: 0;
+  flex: 0 auto;
+  height: 100%;
+  display: block;
+  position: relative;
+  inset: 0%;
+}
+
+.body {
+  background-color: #fff;
+}
+
+.block_title {
+  justify-content: center;
+  align-items: center;
+  height: 45%;
+  display: flex;
+  position: absolute;
+}
+
+.title_bg {
+  width: auto;
+  height: 100%;
+  position: static;
+}
+
+.title {
+  height: 80%;
+  position: absolute;
+}
+
+.buy {
+  color: #3c758b;
+  background-color: #fff;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  font-family: Big Jano, Impact, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  position: absolute;
+  inset: -3.4em auto auto 0%;
+}
+
+.buy:hover {
+  color: #fff;
+  background-color: #76c4c5;
+}
+
+.block_socials {
+  justify-content: flex-end;
+  align-items: center;
+  height: 45px;
+  display: flex;
+  position: absolute;
+  inset: -4.1em 0% auto auto;
+}
+
+.gitbook {
+  color: #000;
+  background-color: #fff;
+  background-image: url('../images/gitbook.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 7px;
+  display: flex;
+  position: static;
+  inset: -4.5em auto auto 0%;
+}
+
+.gitbook:hover {
+  background-image: linear-gradient(#ffffff80, #ffffff80), url('../images/gitbook.svg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, auto;
+}
+
+.scroll {
+  z-index: 1000;
+  color: #000;
+  background-color: #76c4c5;
+  background-image: url('../images/scroll.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 25px;
+  display: flex;
+  position: fixed;
+  inset: auto 0% 0% auto;
+}
+
+.scroll:hover {
+  background-color: #a6dfe0;
+}
+
+.section_about {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.main_bg {
+  background-image: url('../images/bg.jpg');
+  background-position: 50%;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  display: flex;
+  position: fixed;
+  inset: 0%;
+}
+
+.chara-copy {
+  z-index: 150;
+  height: 70%;
+  display: none;
+  position: fixed;
+  inset: auto auto 0% 4%;
+}
+
+.block_about {
+  background-color: #b5ddf2;
+  background-image: linear-gradient(-45deg, #d1fff3, #a0e4ff);
+  border: 2px solid #e3fffc;
+  border-bottom: 11px solid #7bc0ba;
+  border-radius: 18px;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 80%;
+  padding: 15px;
+  display: flex;
+  position: relative;
+}
+
+.about_right {
+  background-color: #81ccd8;
+  border-radius: 8px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  margin-left: 15px;
+  padding: 35px;
+  display: flex;
+  position: relative;
+}
+
+.div-block-5 {
+  background-color: #fff;
+  width: 50px;
+  height: 80px;
+  position: absolute;
+  inset: auto auto -21% 0%;
+}
+
+.lines {
+  border: 2px solid #def0ff;
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  position: static;
+}
+
+.about_left {
+  background-color: #c9fbfe;
+  background-image: linear-gradient(0deg, #c9fbfe, #0000), url('../images/nyra.png');
+  background-position: 0 0, 0 0;
+  background-size: auto, 120px;
+  border: 2px solid #e7feff;
+  border-radius: 8px;
+  width: 50%;
+  height: 100%;
+  position: static;
+  inset: auto;
+}
+
+.nyra2 {
+  height: 35%;
+  margin-right: 50px;
+  position: absolute;
+  inset: auto 0% 0% auto;
+}
+
+.about_details {
+  background-color: #123035;
+  border-radius: 6px;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+}
+
+.text-block {
+  font-family: Big Jano, Impact, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  inset: auto auto -1.6em 0%;
+}
+
+.wave {
+  mix-blend-mode: screen;
+  height: 100px;
+}
+
+.title2 {
+  color: #89fff3;
+  text-align: center;
+  font-family: Big Jano, Impact, sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.para {
+  color: #62c8d9;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.framework {
+  color: #bcfff8;
+  background-color: #072226;
+  border: 2px solid #82f6ea;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  margin-top: 25px;
+  margin-bottom: -13px;
+  font-family: Big Jano, Impact, sans-serif;
+  display: flex;
+}
+
+.framework:hover {
+  box-shadow: 0 2px 20px -4px #82f6ea;
+}
+
+.block_chara {
+  z-index: 150;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  display: flex;
+  position: fixed;
+  inset: auto auto 0%;
+}
+
+.hair {
+  z-index: 10;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  inset: 0%;
+}
+
+.github {
+  color: #000;
+  background-color: #fff;
+  background-image: url('../images/github.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 68%;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 7px;
+  display: flex;
+  position: static;
+  inset: -4.5em auto auto 0%;
+}
+
+.github:hover {
+  background-image: linear-gradient(#ffffff80, #ffffff80), url('../images/github.svg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 68%;
+}
+
+.x {
+  color: #000;
+  background-color: #fff;
+  background-image: url('../images/x.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 7px;
+  display: flex;
+  position: static;
+  inset: -4.5em auto auto 0%;
+}
+
+.x:hover {
+  background-image: linear-gradient(#ffffff80, #ffffff80), url('../images/x.svg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 95%;
+}
+
+.tg {
+  color: #000;
+  background-color: #fff;
+  background-image: url('../images/telegram.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 125%;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 7px;
+  display: flex;
+  position: static;
+  inset: -4.5em auto auto 0%;
+}
+
+.tg:hover {
+  background-image: linear-gradient(#ffffff80, #ffffff80), url('../images/telegram.svg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, 125%;
+}
+
+@media screen and (max-width: 991px) {
+  .block_title {
+    width: 90%;
+    height: auto;
+  }
+
+  .block_about {
+    width: 90%;
+  }
+
+  .about_right {
+    padding: 15px;
+  }
+
+  .nyra2 {
+    height: 20%;
+  }
+
+  .text-block {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .chara {
+    height: 100%;
+  }
+
+  .block_title {
+    inset: 14% auto auto;
+  }
+
+  .about_right {
+    width: 70%;
+  }
+
+  .about_left {
+    width: 30%;
+  }
+
+  .para {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .block_chara {
+    height: 55%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .chara {
+    position: relative;
+    bottom: 0%;
+  }
+
+  .block_title {
+    width: 80%;
+  }
+
+  .buy {
+    width: 130px;
+    inset: auto auto -137%;
+  }
+
+  .block_socials {
+    margin-right: 7px;
+    right: auto;
+  }
+
+  .gitbook {
+    width: 30px;
+    height: 30px;
+  }
+
+  .section_about {
+    z-index: 200;
+  }
+
+  .block_about {
+    height: 90%;
+  }
+
+  .about_right {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .about_left {
+    display: none;
+  }
+
+  .nyra2 {
+    height: 25%;
+    right: -28%;
+  }
+
+  .text-block {
+    left: auto;
+  }
+
+  .block_chara {
+    position: absolute;
+    bottom: -6%;
+  }
+
+  .github, .x, .tg {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Big Jano';
+  src: url('../fonts/Big-Jano.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
